@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Chloe Brown" >
+    <meta name="description" content="Week 6 JavaScript Pay Calculator" >
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--comments for assignment:
+        root folder should be named: w6
+    1. You want to develop a JavaScript program that gathers the user's hourly pay and hours worked for a two-week period. You will use the prompt() function in order to gather this information. Use 20% for the tax rate
+
+        IMPORTANT:
+        The prompt() function only returns strings. Numbers collected from the prompt will need to be cast as a Number() in order to be calculated. In addition, messages in the prompt can utilize escape characters such as \n to create a new line.
+
+    2. Once you have this information, you will display the user's GrossPay, Uncle Sam's Share, and the User's Net Pay. You will use one alert() function as well as three console.log() calls to display this information this will alow you to view the totals both in a pop up as well as the browers console debugging tool.
+
+    
+    -->
+    <h1>Pay Calculator Title</h1>
+
+    <!--java script below-->
+
+    <script>
+        //Javascript here
+
+        //variable for users hourly pay
+        //hourlyPay = prompt(`prompt`)
+        hourlyPay = Number(prompt(`What is your hourly pay?: `))
+
+        //variable for hours worked in a two week period
+        hoursWorked = Number(prompt(`How many hours do you work in a two week period: `))
+
+        //grossPay = hourly pay * hours worked
+        grossPay = hourlyPay * hoursWorked
+
+        //variable for tax rate; use 20%
+        //taxRate = 20/100
+        taxRate = 20/100
+
+        //tax amount = gross pay * tax rate
+        taxAmount = grossPay * taxRate
+
+        //net pay = gross pay - tax amount
+        netPay = grossPay - taxAmount
+
+        //display the user's Gross Pay, Uncle Sam's Share (taxes), and the User's Net pay
+
+        //use one alert() function as well as three console.log() calls to display this info
+
+        console.log(`Gross Pay: `, grossPay)
+        console.log(`Uncle Sam's Share: `, taxAmount)
+        console.log(`Net Pay: `, netPay)
+
+        //alert(`Gross Pay: $`, grossPay, `Uncle Sam's Share: $`, taxAmount, `Net Pay: $`, netPay)
+
+        alert(`Gross Pay: $ ${grossPay.toFixed(2)} \n Uncle Sam's Share: $ ${taxAmount.toFixed(2)} \n Net Pay: $ ${netPay.toFixed(2)}`)
+
+       
+
+
+
+
+    </script>
+</body>
+</html>
