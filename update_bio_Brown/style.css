@@ -1,0 +1,17 @@
+.hide{
+    display:none;
+}
+
+h2{
+    font-size:24px;
+    color:blueviolet;
+}
+
+body{
+    background-color:blanchedalmond;
+    /*put a background gradient in here*/
+    color:darkgreen;
+}
+.content{
+    color:blueviolet;
+}

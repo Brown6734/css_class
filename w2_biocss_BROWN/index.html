@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Chloe Brown">
+        <meta name="date" content="4-15-2023">
+        <title>W2 | Bio Update Assignment</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <main>
+            <!-- header -->
+            <div>
+                <h1>Chloe Brown</h1>
+            </div>
+
+            <!-- navigation bar -->
+            <div class="center" id="nav">
+                <a href="#" class="nav"><b>BIO</b></a>
+                <a href="#" class="nav"><b>EDUCATION</b></a>
+                <a href="#" class="nav"><b>HOBBIES</b></a>
+            </div>
+
+            <!-- MAIN -->
+            <div id="main">
+                <!-- bio -->
+                <div id="bio" class="content">
+                    <h2>My Bio</h2>
+                    <div class="biopic">
+                    
+
+                        <img src="images/my_image2.jpg" alt="This is an image of me.">
+                        <p>
+                            My name is Chloe Brown. I am <b>eighteen years old.</b> This is my third term here at <u>New England Institute of Technology.</u> One of my interests is <i>Pokemon games</i> - especially <strong>Pokemon video games.</strong> 
+                            
+                        </p>
+
+                        <p>I live in <em>Charlestown, Rhode Island.</em> I have lived in Rhode Island for my whole life. I currently work at Staples. I drive myself to work and school.</p>
+                       
+                    </div>
+                </div>
+
+                <!-- schoooling -->
+                <div id="ed" class="content hide">
+                    <h2>Schooling</h2>
+                    <div class="center">
+                        <img
+                            src="images/Schools/chariho_middle_school.jpeg"
+                            alt="Chariho Middle School"
+                        />
+
+                        <img
+                            src="images/Schools/chariho_high_school.jpeg"
+                            alt="Chariho High School"
+                        />
+                        <img
+                            src="images/Schools/NEIT_school.jpeg"
+                            alt="Neit School"
+                        />
+                    </div>
+
+                    <ul>
+                        <li>Chariho Middle School</li>
+                        <li>Chariho High School</li>
+                        <li>
+                            <a href="https://www.neit.edu/" target="_blank"
+                                >New England Institute of Technology</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- hobbies -->
+                <div id="hobbies" class="content hide">
+                    <h2>Hobbies</h2>
+                    <div class="center">
+                        <img
+                            src="images/pokemon1.jpeg"
+                            alt="pokemon logo; Pikachu is most of the image"
+                        />
+                        <img
+                            src="images/pokemon6.jpeg"
+                            alt="Image of many Kalos (Generation 6) Pokemon"
+                            class="anime"
+                        />
+                        <img
+                            src="images/pokemon7.jpeg"
+                            alt="Image of many pokemon (Generations 1 - 3)"
+                            class="anime"
+                        />
+                        <!--pokemon 1, 6, and 7-->
+                    </div>
+                    <ol>
+                        <li>Pokemon</li>
+                        <li>Pokemon</li>
+                        <li>Pokemon</li>
+                    </ol>
+                </div>
+
+                <!-- footer -->
+                <footer id="footer" class="center">
+                    <p>
+                        &copy; 2023 Chloe Brown | W2 Bio Update Assignment
+                    </p>
+                </footer>
+            </div>
+        </main>
+
+        <script>
+            // select all 'a' links from the nav id
+            var a = document.querySelectorAll(`#nav a`)
+            var header = document.querySelector(`h1`)
+
+            // loop through the links in nav
+            for (let i = 0; i < a.length; i++) {
+                a[i].addEventListener("click", function (e) {
+                    // remove link default value to not go to new page
+                    e.preventDefault()
+
+                    // select all tags that have 'content' class
+                    var div = document.querySelectorAll(`.content`)
+
+                    // loop through each div and add the 'hide' class
+                    for (let i = 0; i < div.length; i++) {
+                        div[i].classList.add(`hide`)
+                    }
+
+                    // remove 'hide' class from clicked link
+                    div[i].classList.remove(`hide`)
+                })
+            }
+
+            // when header is clicked the page will show all divs
+            header.addEventListener("click", function (e) {
+                var div = document.querySelectorAll(`.content`)
+                // loop through each div and remove hide class
+                for (let i = 0; i < div.length; i++) {
+                    div[i].classList.remove(`hide`)
+                }
+            })
+        </script>
+    </body>
+</html>

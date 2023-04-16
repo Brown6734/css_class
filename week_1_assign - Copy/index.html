@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Week 1 - Bio">
+    <meta name="author" content="Chloe Brown">
+    <meta name="date" content="4/5/2023">
+    <meta name="section" content="SE137.03">
+    <title>Chloe Brown: My Bio Page</title>
+    <style>
+        .hide{
+            display:none;
+        }
+        h2{
+            font-size:36px;
+            color:burlywood;
+        }
+        body{
+            background-color:darkcyan;
+            color:aquamarine;
+            /**/
+        }
+        hr{
+            height: 2px;
+            background-color:darkgrey;
+            border:none;
+        }
+        .content{
+            color:burlywood;
+        }
+        /*style text (p tag) with .class {}
+        */
+    </style>
+</head>
+<body>
+    <h1>Chloe Brown</h1>
+    <div id="nav">
+        <hr>
+        <a href="#">Bio</a>
+        <a href="#">Education</a>
+        <a href="#">Hobbies</a>
+    </div>
+
+    <div id="main">
+
+        <div id="bio" class="content">
+            <hr>
+            <h2>Bio Page</h2>
+
+            <img src="images/my_image2.jpg" alt="Image of me" style="width: 100px;">
+            <p>My name is Chloe Brown. I am 18 years old. I currently live in Charlestown, Rhode Island. I have lived in Rhode Island my whole life.</p>
+            <p>I have been outside of the country once. I have been to the Canadian side of Niagara Falls. One of my interests is Pokemon. I especially like Pokemon video games.</p>
+
+            <hr>
+        </div>
+
+        <div id="ed" class="content">
+            <h2>Education</h2>
+            
+            <ul>
+                <li>Chariho Middle School</li>
+                <li>Chariho High School</li>
+                <li>
+                    <a href="https://www.neit.edu/" target="_blank">New England Institute of Technology</a>
+                </li>
+            </ul>
+
+            
+        </div>
+
+        <div id="hobbies" class="content">
+            <h2>Hobbies</h2>
+
+           
+
+            <ol>
+                <li>Pokemon</li>
+                <li>Video Games</li>
+                <li>Pokemon Anime</li>
+            </ol>
+
+           
+            <img src="images/pokemon_logo.png" alt="This is an image of the pokemon logo" style="width:150px";>
+            <hr>
+        </div>
+        
+        <div id="footer">
+            <p>&copy; Chloe Brown | W1 Assignment</p>
+        </div>
+
+    </div>
+
+    <script>
+        var a = document.querySelectorAll(`#nav a`);
+
+        for(let i=0; i<a.length; i++)
+        {
+            a[i].addEventListener(`click`,function(e)
+            {
+                e.preventDefault();
+
+                var div = document.querySelectorAll(`.content`);
+
+                for(let i=0; i<div.length; i++)
+                {
+                    div[i].classList.add(`hide`);
+                }
+
+                div[i].classList.remove(`hide`);
+            })
+            
+        }
+    </script>
+    
+</body>
+</html>
