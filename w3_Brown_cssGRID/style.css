@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+/*font-family: 'Love Ya Like A Sister', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+/*font-family: 'Sue Ellen Francisco', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300&display=swap');
+/*font-family: 'Flamenco', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap');
+/*font-family: 'Oregano', cursive;*/
+
+
+/*USE:
+Sue Ellen Francisco
+Oregano
+Love Ya Like A Sister*/
+
+/*MAYBE Sue Ellen Francisco
+MAYBE Oregano
+NOT Flamenco; too light*/
+
+/*not Rubik Vinyl*
+not rubik 80s fade
+MAYBE Love Ya Like A Sister - YES THIS ONE*/
+
+
+#nav{
+    display:none;
+}
+
+/*first: style the background of the body*/
+
+body{
+    background-color:cadetblue;
+}
+
+main{
+    box-sizing: border-box;
+    min-height:100%; 
+    /*Center a Box element*/
+    /* width:1200px; */
+    position:relative;
+    margin:0 auto 0 auto;
+    
+}
+
+h1{
+    box-sizing:border-box;
+    font-size:60px;
+    width: 50%;
+    border: 5px solid red;
+    background: rgb(183,151,193);
+    background: linear-gradient(207deg, rgba(183,151,193,1) 20%, rgba(151,195,112,1) 57%, rgba(135,19,77,0.9781162464985994) 100%);
+
+    
+}
+
+.biopic{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.biopic img{
+    width:200px;
+    height:250px;
+    border-radius:20px;
+    margin-right:5px;
+    margin-left:20px;
+    margin-bottom: 30px;
+}
+
+/*.biopic p {
+    margin-left: 50px; /* Add some space between the text and the image */
+   /* margin-right: 100px;
+    font-size: 20px;
+}*/ 
+
+.biopic p{
+    margin-right:50px;
+    margin-left:25px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size:30px;
+    -webkit-text-fill-color: beige;
+    height:100%;
+    width:90%;
+    border: 10px groove cornflowerblue;
+    background-color:black;
+
+    /*
+    box-sizing:border-box;
+    width: 50%;
+    border: 5px solid red;
+    background-color:darkmagenta;
+    */
+}
+
+ol, ul{
+    font-family: 'Oregano', cursive;
+    font-size:25px;
+    -webkit-text-fill-color: beige;
+    box-sizing: border-box;
+    height:100%;
+    width:40%;
+    border:10px inset rgb(35, 23, 69);
+    background: rgb(221,127,49);
+    background: linear-gradient(51deg, rgba(221,127,49,1) 15%, rgba(39,147,67,1) 44%, rgba(192,93,93,1) 89%);
+}
+
+
+
+/*#ed img {
+    border-radius: 15px;
+    width: 325px;
+    height: 175px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+*/
+
+#ed img{
+    height:250px;
+    border-radius:20px;
+    margin-right:25px;
+    margin-bottom:30px;
+    padding:5px;
+}
+
+#hobbies img{
+    height:250px;
+    border-radius:20px;
+    margin-right:25px;
+    margin-bottom:30px;
+    padding:5px;
+}
+
+h2{
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size:35px;
+    -webkit-text-fill-color: rgb(158, 216, 180);
+    box-sizing:border-box;
+    height:80%;
+    width:150px;
+    border: 5px dashed goldenrod;
+    background: rgb(101,109,169);
+    background: linear-gradient(94deg, rgba(101,109,169,1) 16%, rgba(151,89,45,1) 51%, rgba(18,75,30,1) 89%);
+}
