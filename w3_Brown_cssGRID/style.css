@@ -99,6 +99,15 @@ h1{
     */
 }
 
+#hobbies{
+    border:10px solid red;
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png);
+    
+
+}
+
+
+/*
 ol, ul{
     font-family: 'Oregano', cursive;
     font-size:25px;
@@ -110,7 +119,7 @@ ol, ul{
     background: rgb(221,127,49);
     background: linear-gradient(51deg, rgba(221,127,49,1) 15%, rgba(39,147,67,1) 44%, rgba(192,93,93,1) 89%);
 }
-
+*/
 
 
 /*#ed img {
