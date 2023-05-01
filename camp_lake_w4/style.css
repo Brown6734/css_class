@@ -1,0 +1,500 @@
+@charset "UTF-8";
+
+/*Header rectangle first*/
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+/*font-family: 'Teko', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+/*font-family: 'Teko', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+/*font-family: 'Teko', sans-serif;*/
+
+body{
+    background-color:black;
+    position: relative;
+    width: 1820px;
+    height: 1080px;
+
+    /*background: #282828;*/
+    mix-blend-mode: normal;
+}
+
+.main{
+    background-color:rgb(72, 71, 71);
+}
+
+
+
+.HeaderRect{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1820px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #070707;
+    /*
+    border: 10px 10px 10px 10px;
+    border-color:yellow;
+    border-style:solid;
+    */
+    
+}
+
+.headerText h1{
+    position: absolute;
+    width: 478px;
+    height: 50px;
+    left: 30px;
+    top: 13px;
+
+    font-family: 'Teko', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 69px;
+
+    color: #BB0908;
+}
+
+.social1{
+    /*youtube*/
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1565px;
+    top: 21px;
+
+    background:url(FigmaImages/youtube.png)
+
+}
+
+/*snapchat*/
+
+.social2{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1638px;
+    top: 21px;
+    background:url(FigmaImages/snapchat.png)
+}
+
+/*twitter*/
+
+.social3{
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    left: 1710px;
+    top: 16px;
+    background:url(FigmaImages/twitter.png)
+}
+
+.bigRect{
+
+    /*
+    border:10px 10px 10px 10px yellow;
+    border:ridge 15px;
+    */
+    position: absolute;
+    width: 1440px;
+    height: 388px;
+    left: 0px;
+    top: 100px;
+    /*background:#070707;*/
+    background:url(FigmaImages/BANNER.png)
+   
+    /*background: url(image.png);*/
+}
+
+.Rect2{
+    position: absolute;
+    width: 700px;
+    min-height: 481px;
+    left: 20px;
+    top: 512px;
+    /*
+    border:10px 10px 10px 10px turquoise;
+    border: dashed 15px;
+    */
+    background: #393939;
+    
+
+    /*background: url(FigmaImages/Poster.png);*/
+}
+
+.PizzaRules{
+    color: #FF1D29;
+    position: absolute;
+    width: 353px;
+    height: 77px;
+    left: 355px;
+    top: 500px;
+
+    font-family: 'Rock Salt', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 72px;
+}
+
+.pizzaLine{
+    position: absolute;
+    width: 348px;
+    height: 0px;
+    left: 351px;
+    top: 601px;
+
+    border: 4px solid #BB0908;
+}
+
+.paragraphPizza{
+    color: white;
+    position: absolute;
+    width: 349px;
+    height: 189px;
+    left: 351px;
+    top: 600px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.mini-poster{
+    position: absolute;
+    width: 117px;
+    height: 148px;
+    left: 351px;
+    top: 825px;
+    /*
+    border:10px 10px 10px 10px red;
+    border: dashed 10px;
+    border-color:red;
+    */
+    /*background-color:aquamarine;*/
+    background: url(FigmaImages/blueray.png);
+
+}
+
+.grubhub{
+    font-family: 'Poppins', sans-serif;
+    color:cyan;
+    font-weight:100;
+    font-style:normal;
+    font-size:15px;
+    line-height:40px;
+
+    position: absolute;
+    width: 180px;
+    height: 37px;
+    left: 500px;
+    top: 800px;
+}
+
+.money1{
+    position: absolute;
+    font-family: 'Teko', sans-serif;
+    width:200px;
+   /* height:150px;*/
+    color:white;
+    font-weight:700;
+    font-size: 52px;
+    line-height:50px;
+    left:510px;
+    top: 870px;
+
+}
+/*money text: $19.99 - is hiding behind the header rectangle*/
+
+
+.insideRect1{
+    
+    position:absolute;
+    width: 310px;
+    min-height: 478px;
+    left: 22px;
+    top: 513px;
+    /*
+    border: 10px 10px 10px 10px violet;
+    border: inset 10px;
+    border-color:violet;
+    */
+    /*background:cornflowerblue;*/
+
+    background: url(FigmaImages/Poster.png);
+}
+
+.Rect3{
+    position: absolute;
+    width: 700px;
+    min-height: 481px;
+    left: 740px;
+    top: 511px;
+    /*
+    border: 10px 10px 10px 10px hotpink;
+    border: double 10px;
+    border-color:hotpink;
+    */
+    background: #393939;
+}
+
+.insideRect3{
+    position: absolute;
+    width: 641px;
+    height: 229px;
+    left: 764px;
+    top: 530px;
+    /*
+    border: 10px 10px 10px 10px gold;
+    border:medium 10px;
+    border-color:gold;
+    *background: url(image.png);*/
+    /*background:limegreen;*/
+
+    background: url(FigmaImages/pennant.png)
+
+}
+
+.moreText p{
+    position: absolute;
+    width: 660px;
+    height: 195px;
+    left: 764px;
+    top: 778px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+    }
+
+.VertRect{
+    position: absolute;
+    width: 360px;
+    /*height: 918px;*/
+    min-height:918px;
+    left: 1460px;
+    top: 99px;
+    /*
+    border: 10px 10px 10px 10px brown;
+    border:double 10px;
+    border-color:brown;
+    */
+    background: #393939;
+}
+
+.p1{
+    color: #FFFFFF;
+    position: absolute;
+    width: 275px;
+ 
+    left:1504px;
+    top:420px;
+
+    /*
+    width: 275px;
+    height: 385px;
+    */
+    /*left: 1504px;
+    top: 409px;*/
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    /*color: gold;*/
+}
+
+.p2{
+    color: #FFFFFF;
+    position: absolute;
+    width: 275px;
+    padding-top:20px;
+    left: 1504px;
+    top:560px;
+    /*
+    width: 275px;
+    height: 385px;
+    */
+    /*left: 1504px;
+    top: 409px;*/
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    /*color: gold;*/
+}
+
+.date1{
+    color:#FC0303;
+    position: absolute;
+    width: 275px;
+    left: 1504px;
+    top:400px;
+
+    /*
+    width: 275px;
+    height: 385px;
+    */
+    /*left: 1504px;
+    top: 409px;*/
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    /*color: gold;*/
+}
+/*use span for date*/
+
+.date2{
+    color:#FC0303;
+    position: absolute;
+    width: 275px;
+    left: 1504px;
+    top: 560px;
+
+    /*
+    width: 275px;
+    height: 385px;
+    */
+    /*left: 1504px;
+    top: 409px;*/
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    /*color: gold;*/
+}
+
+.p3{
+    color: #FFFFFF;
+    position: absolute;
+    width: 275px;
+    padding-top:20px;
+    left: 1504px;
+    top: 670px;
+    /*
+    width: 275px;
+    height: 385px;
+    */
+    /*left: 1504px;
+    top: 409px;*/
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    /*color: gold;*/
+}
+
+.date3{
+    color:#FC0303;
+    position: absolute;
+    width: 275px;
+    left: 1504px;
+    top:670px;
+
+    /*
+    width: 275px;
+    height: 385px;
+    */
+    /*left: 1504px;
+    top: 409px;*/
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    /*color: gold;*/
+}
+
+/*
+.VertRectText h2{
+    color: #FC0303
+}
+*/
+
+.insideVertRect1{
+    position: absolute;
+    width: 325px;
+    height: 254px;
+    left: 1477px;
+    top: 124px;
+    /*
+    border: 10px 10px 10px 10px firebrick;
+    border: dashed 10px;
+    border-color: firebrick;
+    */
+    /*background:cadetblue;*/
+    background: url(FigmaImages/sign.png);
+}
+
+.insideVertRect2{
+    position: absolute;
+    width: 325px;
+    height: 170.52px;
+    left: 1478px;
+    top: 818px;
+    /*
+    border: 10px 10px 10px 10px darkorange;
+    border: dashed 10px;
+    border-color:darkorange;
+    */
+    background: url(FigmaImages/underwater.png);
+}
+
+.FooterRect{
+    position: absolute;
+    width: 1820px;
+    height: 60px;
+    left: 0px;
+    top: 1017px;
+    /*
+    border: 10px 10px 10px 10px purple;
+    border: groove 10px;
+    border-color:purple;
+    */
+    background: #070707;
+}
+
+.footerText p{
+    position: absolute;
+    width: 105px;
+    height: 17px;
+    left: 30px;
+    top: 1038px;
+
+    font-family: 'Teko', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+
+    color: #BCBCBC;
+
+}
