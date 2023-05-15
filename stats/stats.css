@@ -1,0 +1,69 @@
+html, body{
+    margin:0;
+    height:100vh;
+}
+
+/*media queries*/
+
+@media (max-width: 450px){
+    /*hide stat(s) column(s) in MOBILE MODE*/
+    .stat{
+        display:none;
+    }
+}
+
+
+
+
+
+@media (max-width: 915px){
+    /*MEDIUM SIZE - table header change to abbreviated column names
+    YEAH it works!!!!!!*/
+    tr:first-of-type{
+        display:none;
+    }
+}
+
+@media (min-width: 920px){
+    /*large mode
+    HEADER will only have LONG column names*/
+    tr:last-of-type{
+        display:none;
+    }
+}
+
+
+@media (max-width: 450px){
+
+    /*mobile:
+    text larger
+    IT WORKS: Yeah!!!!!!!!*/
+    body{
+        font-size: 32px;
+    }
+    td:nth-child(9){
+        padding:10px;
+    }
+
+    td:nth-child(2){
+        padding:5px;
+    }
+}
+
+/*When the browser is large it will display all of the statistics and the table header will have long column names.
+When the browser is a medium size the table headers will change to include abbreviated column names.
+When the browser is small the stats will disappear leaving only the name, id, average and total column headers.
+When the browser is in mobile mode the page will display the text at a larger size.*/
+
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+table{
+    width:80%;
+    border-collapse: collapse;
+}
+td{
+    border-bottom:1px solid black;
+}
