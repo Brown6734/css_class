@@ -1,46 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+/*font-family: 'Rajdhani', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+/*font-family: 'Space Grotesk', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+/*font-family: 'Caveat', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Foldit&display=swap');
+/*font-family: 'Foldit', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+/*font-family: 'Rubik Pixels', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+/*font-family: 'Rubik 80s Fade', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+/*font-family: 'Rubik Dirt', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/*font-family: 'Dancing Script', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+/*font-family: 'Audiowide', cursive;*/
+
+
+/**/
+
+
+/**/
+
+
 html, body{
     margin:0;
     height:100vh;
+    
 }
+
+
 
 /*media queries*/
 
-@media (max-width: 450px){
-    /*hide stat(s) column(s) in MOBILE MODE*/
+html{
+    font-size:16px;
+    
+}
+
+
+
+
+
+/*
+@media (max-width: 500px){
+    hide stat(s) column(s) in MOBILE MODE
     .stat{
         display:none;
     }
 }
+*/
 
 
 
 
 
-@media (max-width: 915px){
+
+@media (max-width: 1920px){
+    /*large mode
+    HEADER will only have LONG column names*/
+
+    h1{
+
+        /*1em = fontsize of html*/
+        font-size: 2.4em;
+        /*style the h1 to look different than the default*/
+        font-family: 'Rubik Dirt', cursive;
+        font-weight: 100;
+    }
+    thead{
+        font-size: 1.6em;
+        /*give it a background color and change the font color to complement the background*/
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 100;
+        background-color: cornflowerblue;
+        color:darkslategrey;
+    }
+    tbody{
+        font-size:1.6em;
+        font-family: 'Caveat', cursive;
+        font-weight: 100;
+    }
+
+    tr:last-child{
+        display:none;
+    }
+
+    td:nth-child(odd){
+        padding:5px;
+    }
+    td:nth-child(even){
+        padding:5px;
+    }
+
+
+}
+
+@media (max-width: 1000px){
     /*MEDIUM SIZE - table header change to abbreviated column names
     YEAH it works!!!!!!*/
+
+    h1{
+        font-size: 2.4em;
+        /*style the h1 to look different than the default*/
+        font-family: 'Rubik Dirt', cursive;
+        font-weight: 100;
+        
+    }
+    thead{
+        font-size:1.6em;
+        /*give it a background color and change the font color to complement the background*/
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 100;
+        background-color: cornflowerblue;
+        color:darkslategrey;
+    }
+    tbody{
+        font-size: 1.6em;
+        font-family: 'Caveat', cursive;
+        font-weight: 100;
+    }
+
+    
     tr:first-of-type{
         display:none;
     }
-}
 
-@media (min-width: 920px){
-    /*large mode
-    HEADER will only have LONG column names*/
     tr:last-of-type{
-        display:none;
+        display:table-row;
     }
+
+    td:nth-child(odd){
+        padding:5px;
+    }
+    td:nth-child(even){
+        padding:5px;
+    }
+
+
 }
 
 
-@media (max-width: 450px){
+@media (max-width: 500px){
 
     /*mobile:
     text larger
     IT WORKS: Yeah!!!!!!!!*/
+
+    h1{
+        font-size: 3.2em;
+        /*style the h1 to look different than the default*/
+        
+        /*
+        font-family: 'Dancing Script', cursive;
+        font-style: normal;
+        font-weight:400;
+        */
+
+        font-family: 'Rubik Dirt', cursive;
+        font-weight: 100;
+        color:darkslategrey;
+       
+        
+    }
+    thead{
+        font-size: 2.4em;
+        /*give it a background color and change the font color to complement the background*/
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 100;
+        background-color: cornflowerblue;
+        color:darkslategrey;
+
+    }
+    tbody{
+        font-size: 2.0em;
+        font-family: 'Caveat', cursive;
+        font-weight: 100;
+    }
+
+
+    .stat{
+        display:none;
+    }
+    /*
     body{
         font-size: 32px;
     }
+    */
+    
     td:nth-child(9){
         padding:10px;
     }
@@ -48,6 +205,7 @@ html, body{
     td:nth-child(2){
         padding:5px;
     }
+    
 }
 
 /*When the browser is large it will display all of the statistics and the table header will have long column names.
@@ -59,6 +217,8 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center;
+    /*give body a background color*/
+    background-color:darksalmon;
 }
 table{
     width:80%;
