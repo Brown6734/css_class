@@ -1,0 +1,38 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+/*@media (min-width: 576px) {...}*/
+
+@media (min-width: 576px){
+  /*small devices*/
+}
+
+@media (min-width: 768px){
+  /*medium devices*/
+}
+
+@media (min-width: 992px){
+  /*large devices*/
+}
+
+@media (min-width: 1200px){
+  /*extra large devices*/
+}
+
+/*create a page with the following elements:
+a nav bar
+a Hero image
+*/
+/*three side by side elements that are:*/
+/*4 columns wide when the browser is Large*/
+/*6 columns wide when the browser is medium*/
+/*12 columns wide when the browser is small*/
+/*a table*/
+/*a footer*/
+/**/
+

@@ -1,0 +1,1192 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+/*font-family: 'Monomaniac One', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+/*font-family: 'Cherry Bomb One', cursive;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap');
+/*font-family: 'Wix Madefor Display', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+/*font-family: 'Pangolin', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+/*font-family: 'Space Grotesk', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+/*font-family: 'Shadows Into Light', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+/*font-family: 'Indie Flower', cursive;
+*/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+/**/
+
+
+
+
+/*class for media query try stuff: final_try1*/
+
+
+/*
+div{
+    background-color: yellow;
+}
+
+@media (max-width: 600px){
+    .final_try1{
+        background-color: blue;
+        border: 5px solid red;
+    }
+}
+*/
+
+/*position: relative;
+width: 1305px;
+height: 886px;*/
+
+html{
+    width: 1305px;
+    height: 386px;
+    background-color: lightblue;
+}
+
+/*big screens header*/
+/*width: 1305px;
+height: 116px;
+left: 0px;
+top: 0px;*/
+
+@media (min-width: 700px){
+    /*large mode; will increase pixel size later*/
+
+
+    body, html {
+        height: 100%;
+    }
+    
+    /* The hero image */
+    .hero-image {
+      /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/featuredproject.png);
+    
+      /* Set a specific height */
+      height: 600px;
+
+      margin-top: 75px;
+    
+      /* Position and center the image to scale nicely on all screens */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    /* Place text in the middle of the image */
+    .hero-text {
+      text-align: center;
+      top: 150px;
+      left: 125px;
+      transform: translate(-25px, 250px);
+      color: white;
+
+      font-size: 30px;
+
+      margin-top: 70px;
+    }
+
+    /*
+    .final_try1{
+        display: flex;
+        width: 1305px;
+        height: 116px;
+        left: 0px;
+        top: 0px;
+        background-color: lightslategray;
+
+    }
+    */
+
+    
+
+    header{
+        display:flex;
+        width: 1305px;
+        height: 75px;
+        left: 0px;
+        top: 0px;
+        color: white;
+        background-color: lightslategray;
+    }
+
+    aside{
+        width: 50px;
+        background-color:coral;
+    }
+
+    details{
+        width: 150px;
+        transition: 2s;
+        background-color: cadetblue;
+
+        font-size: 28px;
+
+    }
+
+    summary{
+        width: 150px;
+        transition: 2s;
+        background-color: darkgoldenrod;
+
+        font-size: 28px;
+
+    }
+    
+
+    /*featured project green rectangle in figma design*/
+    /*width: 759px;
+height: 297px;
+left: 0px;
+top: 116px;*/
+
+/*
+    .sp1{
+        display:flex;
+        width: 600px;
+        height: 297px;
+        left: 0px;
+        top: 116px;
+        background-color: green;
+    }
+
+*/
+    .sp2{
+        width: 371px;
+        left: 787px;
+        right: 300px;
+        height: 34px;
+        top: 230px;
+
+        padding-left: 20px;
+        padding-bottom: 75px;
+
+        margin-top: 20px;
+
+
+        font-weight: 400;
+        font-size: 28px;
+        color: black;
+        font-family: 'Shadows Into Light', cursive;
+    }
+
+    .sp3{
+        width: 5px;
+        height: 5px;
+
+        top: 40px;
+
+
+        padding-left: 325px;
+
+        margin-left: 20px;
+        margin-top: -70px;
+
+        border: 1px solid blue;
+        background-color: blue;
+    }
+
+    .sp4{
+        width: 371px;
+        height: 34px;
+        left: 804px;
+        top: 208px;
+
+        padding-left: 50px;
+
+        color: black;
+        font-family: 'Cherry Bomb One', cursive;
+    }
+
+    .sp5{
+        width: 371px;
+        height: 70px;
+
+        padding-left: 10px;
+        margin-top: -20px;
+
+        color:darkgreen;
+        font-family: 'Cherry Bomb One', cursive;
+        font-weight:lighter;
+        font-size: 20px;
+        
+    }
+
+    .sp6{
+        width: 271px;
+        height: 50px;
+
+        padding-left: 50px;
+        margin-top: 80px;
+
+        font-size: 15px;
+        font-family: 'Monomaniac One', sans-serif;
+    }
+
+    .spline{
+        display:flex;
+        width:5px;
+        height: 5px;
+
+        padding-left: 350px;
+
+        border: 1px solid blue;
+        background-color: blue;
+
+        margin-left: 20px;
+        margin-top: 80px;
+    }
+
+    .sp7{
+        width: 400px;
+        height: 325px;
+
+        margin-top: 75px;
+
+        /*
+        border: 5px solid royalblue;
+        background-color:fuchsia;
+        */
+
+        background-image: url(images/my_image2\ \(1\).jpg);
+        background-repeat: no-repeat;
+        /*
+        background-position-x: 100;
+        background-position-y: -1550px;
+        */
+        background-size: 280px;
+        background-position-x: 10px;
+        background-position-y: -100px;
+    }
+
+    .sp8{
+        width: 300px;
+        height: 75px;
+
+        margin-top: -400px;
+        padding-left: 450px;
+        font-family: 'Wix Madefor Display', sans-serif;
+        font-size: 28px;
+    }
+
+    .sp9{
+        display:flex;
+
+        width:5px;
+        height: 5px;
+
+        padding-left: 200px;
+
+        border: 1px solid blue;
+        background-color: blue;
+
+        margin-left: 450px;
+        margin-top: -25px;
+    }
+    
+    .sp10{
+        display:flex;
+        width: 250px;
+        height: 100px;
+
+        padding-left: 450px;
+        margin-top: -10px;
+
+        color: black;
+        font-family: 'Indie Flower', cursive;
+        font-size: 26px;
+    }
+
+    .sp11{
+        display:flex;
+        width: 100px;
+        height: 75px;
+
+        padding-left: 750px;
+        margin-top: -350px;
+    }
+
+    .sp12{
+        display:flex;
+
+        width:5px;
+        height: 5px;
+
+        padding-left: 150px;
+
+        border: 1px solid blue;
+        background-color: blue;
+
+        margin-left: 750px;
+        margin-top: -25px;
+    }
+
+    .s14{
+        display: flex;
+
+        width: 200px;
+        height: 25px;
+
+        padding-left: 750px;
+        margin-top: 20px;
+
+        color: black;
+
+    }
+
+    .s15{
+        display: flex;
+
+        width: 100px;
+        height: 75px;
+
+        padding-left: 750px;
+        margin-top: -10px;
+
+        color: black;
+
+    }
+
+    .sp14{
+        display:flex;
+        width: 100px;
+
+        padding-left: 750px;
+        margin-top: 10px;
+
+        color: black;
+    }
+
+    .sp15{
+        display:flex;
+
+        width:5px;
+        height: 5px;
+
+        padding-left: 300px;
+
+        border: 1px solid blue;
+        background-color: blue;
+
+        margin-left: 750px;
+        margin-top: 5px;
+    }
+
+    .sp16{
+        display:flex;
+        /*
+        width: 70px;
+        height: 70px;
+        */
+
+        margin-left: 750px;
+        margin-top: 5px;
+
+        /*
+        background-color:brown;
+        border: 5px solid yellow;
+        */
+        /*FACEBOOK*/
+        background: url(images/socialtry6.png) no-repeat 0 -110px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .sp17{
+        display: flex;
+        /*
+        width: 70px;
+        height: 70px;
+        */
+
+        margin-left: 880px;
+        margin-top: -100px;
+
+        /*
+        background-color:chartreuse;
+        border: 5px solid purple;
+        */
+        /*INSTAGRAM*/
+        background: url(images/socialtry6.png) no-repeat -315px -110px;
+        width: 100px;
+        height: 100px;
+    }
+
+    footer{
+        display: flex;
+        width: 1200px;
+        height: 50px;
+
+        margin-top: 300px;
+
+        background-color: lightslategray;
+
+    }
+
+    /*product description paragraph text*/
+    /*width: 371px;
+height: 33px;
+left: 787px;
+top: 266px;*/
+
+    /*project name, DATE text*/
+    /*width: 371px;
+height: 34px;
+left: 804px;
+top: 208px;*/
+
+    /*featured project text/header thing*/
+    /*width: 371px;
+height: 34px;
+left: 787px;
+top: 130px;
+
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 32px;*/
+}
+
+/*size for small screen HOME PAGE*/
+/*width: 513px;
+height: 2768px;*/
+
+@media (max-width: 699px){
+    html{
+        width: 400px;
+        height: 968px;
+        /*border: 15px solid red;*/
+    }
+
+    body{
+        width: 450px;
+
+    }
+
+    body, html {
+        height: 100%;
+    }
+    
+    /* The hero image */
+    .hero-image {
+      /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/featuredproject.png);
+    
+      /* Set a specific height */
+      height: 200px;
+
+      margin-top: 75px;
+    
+      /* Position and center the image to scale nicely on all screens */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    /* Place text in the middle of the image */
+    .hero-text {
+      text-align: center;
+      top: 150px;
+      left: 125px;
+      transform: translate(-25px, 50px);
+      color: white;
+
+      margin-top: 70px;
+    }
+
+    header{
+        display:flex;
+        width: 450px;
+        height: 75px;
+        left: 0px;
+        top: 0px;
+        color: white;
+        background-color: lightslategray;
+    }
+
+    details{
+        width: 150px;
+        transition: 2s;
+        background-color: cadetblue;
+
+        font-size: 28px;
+
+    }
+
+    summary{
+        width: 150px;
+        transition: 2s;
+        background-color: darkgoldenrod;
+
+        font-size: 28px;
+
+    }
+
+    /*
+
+    .sp1{
+        display:flex;
+        width: 400px;
+        height: 197px;
+        left: 0px;
+        top: 116px;
+        
+        background-color: green;
+        
+        background-image: url(images/featuredproject.png);
+        background-size: 400px;
+        background-repeat: no-repeat;
+
+    }
+    */
+
+    .sp2{
+        width: 271px;
+        /*left: 287px;*/
+        right: 100px;
+        height: 34px;
+        top: 130px;
+
+        padding-left: 0px;
+        padding-bottom: 75px;
+
+        margin-top: 15px;
+
+
+       /* font-weight:lighter;*/
+      
+        font-size: 24px;
+        color: black;
+        font-family: 'Shadows Into Light', cursive;
+    }
+
+    .sp3{
+        width: 5px;
+        height: 5px;
+
+       /* top: 40px;*/
+
+
+        padding-left: 350px;
+
+        margin-left: 0px;
+        margin-top: -70px;
+
+        border: 1px solid blue;
+        background-color: blue;
+    }
+
+    .sp4{
+        width: 271px;
+        height: 24px;
+        left: 204px;
+        top: 8px;
+
+        padding-left: 0px;
+
+        font-size: 26px;
+        color: black;
+        font-family: 'Cherry Bomb One', cursive;
+    }
+    
+    .sp5{
+        width: 371px;
+        height: 70px;
+
+        padding-left: 0px;
+        margin-top: 10px;
+
+        font-size: 24px;
+        color: black;
+    }
+
+    .sp6{
+        width: 371px;
+        height: 50px;
+
+        padding-left: 0px;
+        margin-top: 120px;
+        font-size: 24px;
+        font-family: 'Monomaniac One', sans-serif;
+    }
+
+    .spline{
+        display:flex;
+        width:5px;
+        height: 5px;
+
+        padding-left: 180px;
+
+        border: 1px solid blue;
+        background-color: blue;
+
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+
+    .sp7{
+        width: 300px;
+        height: 225px;
+        top: 10px;
+        bottom: 10px;
+
+        margin-top: 35px;
+
+        
+        /*
+        border: 5px solid royalblue;
+        background-color:fuchsia;
+        */
+
+        background-image: url(images/my_image2\ \(1\).jpg);
+        background-repeat: no-repeat;
+        /*
+        background-position-x: 100;
+        background-position-y: -1550px;
+        */
+        background-size: 280px;
+        background-position-x: 10px;
+        background-position-y: -100px;
+
+
+        /*
+        background-image: url(images/myself_image1.png);
+        */
+
+    }
+
+    .sp8{
+        width: 300px;
+        height: 75px;
+
+        margin-top: 10px;
+        padding-left: 10px;
+        font-size: 26px;
+        font-family: 'Wix Madefor Display', sans-serif;
+    }
+
+    .sp9{
+        display:flex;
+
+        width:5px;
+        height: 5px;
+
+        padding-left: 350px;
+
+        border: 1px solid blue;
+        background-color: blue;
+
+        margin-left: 0px;
+        margin-top: -25px;
+    }
+
+    .sp10{
+        display:flex;
+        width: 340px;
+        height: 75px;
+
+        padding-left: 0px;
+        margin-top: -10px;
+
+        color: black;
+        font-size: 24px;
+        font-family: 'Indie Flower', cursive;
+    }
+
+    .sp11{
+        display:flex;
+        width: 300px;
+        height: 75px;
+
+        padding-left: 0px;
+        margin-top: 100px;
+        font-size: 24px;
+    }
+
+    .sp12{
+        display:flex;
+
+        width:5px;
+        height: 5px;
+
+        padding-left: 350px;
+
+        border: 1px solid blue;
+        background-color: blue;
+
+        margin-left: 0px;
+        margin-top: -5px;
+    }
+
+    .s14{
+        display: flex;
+
+        width: 320px;
+        height: 25px;
+
+        padding-left: 10px;
+        margin-top: 20px;
+
+        color: black;
+        font-size: 22px;
+
+    }
+
+    .s15{
+        display: flex;
+
+        width: 320px;
+        height: 25px;
+
+        padding-left: 10px;
+        margin-top: -10px;
+
+        color: black;
+        font-size: 22px;
+
+    }
+
+    .sp14{
+        display:flex;
+        width: 300px;
+
+        padding-left: 0px;
+        margin-top: 10px;
+
+        color: black;
+        font-size: 26px;
+    }
+
+    .sp15{
+        display:flex;
+
+        width:5px;
+        height: 5px;
+
+        padding-left: 330px;
+
+        border: 1px solid blue;
+        background-color: blue;
+
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+
+    .sp16{
+        display:flex;
+        /*
+        width: 100px;
+        height: 100px;
+        */
+
+        margin-left: 10px;
+        margin-top: 5px;
+
+        /*
+        background-color:brown;
+        border: 5px solid yellow;
+        */
+
+        /*FACEBOOK*/
+        background: url(images/socialtry6.png) no-repeat 0 -110px;
+        width: 100px;
+        height: 100px;
+
+        /*
+        background: url('imgs/socialtry6.png') no-repeat 0 -110px;
+	width: 100px;
+	height: 100px;
+
+
+
+        background: url(images/socialsprite4.png) no-repeat -165px -134px;
+        width: 46px;
+        height: 42px;
+
+        background: url('imgs/socialsprite6.jpg') no-repeat -62px -112px;
+        width: 25px;
+        height: 25px;
+
+        */
+
+        /*background: url('imgs/socialsprite4.png') no-repeat -162px -134px;
+	    width: 46px;
+	    height: 42px;*/
+    }
+
+    .sp17{
+        display: flex;
+        /*
+        width: 100px;
+        height: 100px;
+        */
+
+        margin-left: 140px;
+        margin-top: -100px;
+
+        /*INSTAGRAM*/
+        background: url(images/socialtry6.png) no-repeat -315px -110px;
+        width: 100px;
+        height: 100px;
+
+        /*
+        background-color:chartreuse;
+        border: 5px solid purple;
+        */
+
+        /*background: url('imgs/socialtry6.png') no-repeat -315px -110px;
+	width: 100px;
+	height: 100px;*/
+    }
+
+    footer{
+        display: flex;
+        width: 450px;
+        height: 50px;
+
+        margin-top: 40px;
+
+        background-color: lightslategray;
+
+    }
+
+    /*width: 513px;
+    height: 116px;
+    left: 0px;
+    top: 0px;*/
+
+    /*
+    .final_try1{
+        display:flex;
+        width: 185px;
+        height: 116px;
+        left: 0px;
+        top: 0px;
+        background-color: lightslategray;
+    }
+    */
+
+    
+
+    /*
+    .sp1{
+        display:flex;
+        width: 475px;
+        height: 297px;
+        left: 0px;
+        top: 116px;
+        background-color:darkorchid;
+    }
+    */
+
+
+}
+
+/*
+body{
+    background-color: yellow;
+}
+
+.final_try1{
+    border: 5px solid green;
+}
+
+@media (max-width: 550px){
+    .final_try1{
+        border: 10px solid red;
+    }
+}
+*/
+
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/

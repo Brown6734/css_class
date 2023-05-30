@@ -1,0 +1,211 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+
+
+html{
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  padding-top: 3.5rem;
+  font-size: 1rem;
+}
+
+
+.jumbotron{
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;;
+  background-color: #e9ecef;
+  border: 5px solid blue;
+  border-radius: 0.3rem;
+}
+
+/*.jumbotron { */
+/*padding: 2rem 1rem;*/
+/*margin-bottom: 2rem;*/
+/*background-color: #e9ecef*/
+/*border-radius: 0.3rem;*/
+/*}*/
+/**/
+/**/
+
+.display-4{
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+/*.display-4 {*/
+/*  font-size: 3.5rem;*/
+/*  font-weight: 300;*/
+/*  line-height: 1.2;*/
+/*}*/
+/**/
+/**/
+/**/
+
+
+/*.lead {*/
+/*  font-size: 1.25rem;*/
+/*  font-weight: 300;*/
+/*}*/
+/**/
+/**/
+/**/
+/**/
+
+.my-4{
+  margin-bottom: 1.5rem !important;
+}
+
+/*.my-4 { */
+/* margin-bottom: 1.5rem  */
+/* !important;*/
+/*}*/
+
+.lead{
+  font-size:1.25rem;
+  font-weight: 300;
+}
+
+
+/*@media (min-width: 576px) { */
+/*  .jumbotron {*/
+/*    padding: 4rem 2rem;*/
+/*  }*/
+/*}*/
+/**/
+/**/
+/**/
+
+@media (min-width: 576px) {
+  .jumbotron{
+    padding: 4rem 2rem;
+  }
+}
+
+.btn-primary{
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover{
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+
+
+
+
+
+/*btn btn-primary btn-lg*/
+
+/*.btn-primary {*/
+/*  color: #fff;*/
+/*  background-color: #007bff;*/
+/*  border-color: #007bff;*/
+/*}*/
+/**/
+/**/
+/**/
+
+/*btn btn-primary btn-lg*/
+
+/*.btn-primary:hover {*/
+/*  color: #fff;*/
+/*  background-color: #0069d9;*/
+/*  border-color: #0062cc;*/
+/*}*/
+/**/
+/**/
+/**/
+
+/*btn btn-primary btn-lg*/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/

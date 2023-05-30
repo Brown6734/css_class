@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+/*font-family: 'Monomaniac One', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+/*font-family: 'Cherry Bomb One', cursive;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap');
+/*font-family: 'Wix Madefor Display', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+/*font-family: 'Pangolin', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+/*font-family: 'Space Grotesk', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+/*font-family: 'Shadows Into Light', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+/*font-family: 'Indie Flower', cursive;
+*/
+
+
+
+html{
+    width: 1300px;
+    height: 986px;
+    background-color: lightblue;
+}
+
+@media (min-width: 700px){
+    /*large mode; will increase pixel size later*/
+    header{
+        display: flex;
+        width: 1000px;
+        height: 80px;
+        color: white;
+        background-color: lightslategray;
+    }
+
+    details{
+        width: 100px;
+        transition: 2s;
+        background-color: cadetblue;
+
+    }
+
+    summary{
+        width: 100px;
+        transition: 2s;
+        background-color: darkgoldenrod;
+    }
+
+    .space2{
+        width: 320px;
+        height: 80px;
+
+        font-size: 26px;
+
+    }
+
+    .space3{
+        width: 500px;
+        height: 250px;
+
+        margin-top: -40px;
+        margin-left: 20px;
+
+        /*
+        background-color: blueviolet;
+        */
+        background-image: url(images/featuredproject.png); 
+        background-repeat: no-repeat;
+        background-size: 500px;
+    }
+
+    .space4{
+        width: 320px;
+        height: 80px;
+
+        color: black;
+
+        margin-top: -270px;
+        margin-left: 600px;
+
+        font-size: 26px;
+    }
+
+    .space5{
+        width: 5px;
+        height: 5px;
+
+        padding-left: 400px;
+
+        margin-left: 545px;
+        margin-top: -20px;
+
+        border: 1px solid blue;
+        background-color: blue;
+    }
+
+    .space6{
+        width: 320px;
+        height: 80px;
+
+        color:darkorange;
+
+        margin-top: 10px;
+        margin-left: 550px;
+
+        font-size: 22px;
+        font-family: 'Shadows Into Light', cursive;
+    }
+
+    .space7{
+        width: 320px;
+        height: 80px;
+
+        color: rgb(149, 20, 20);
+
+        margin-top: -10px;
+        margin-left: 575px;
+
+        font-size: 24px;
+        font-family: 'Pangolin', cursive;
+    }
+
+    .space8{
+        width: 120px;
+        height: 120px;
+
+        margin-top: 10px;
+        margin-left: 40px;
+
+        /*
+        background-color:darkslateblue;
+        */
+
+        background-image: url(images/featured2.png);
+        background-size: 700px;
+        background-repeat: no-repeat;
+    }
+
+    .space9{
+        width: 120px;
+        height: 120px;
+
+        margin-top: -120px;
+        margin-left: 180px;
+
+        /*
+        background-color:darkkhaki;
+        */
+        background-image: url(images/featured3.png);
+        background-size: 700px;
+        background-repeat: no-repeat;
+    }
+
+    .space10{
+        width: 120px;
+        height: 120px;
+
+        margin-top: -120px;
+        margin-left: 320px;
+
+        /*
+        background-color:darkviolet;
+        */
+
+        background-image: url(images/featured4.png);
+        background-size: 600px;
+        background-repeat: no-repeat;
+    }
+
+    .space11{
+        width: 320px;
+        height: 80px;
+
+        margin-top: 50px;
+        margin-left: 40px;
+
+        color: black;
+
+        font-size: 26px;
+    }
+
+    .space12{
+        /*
+        width: 80px;
+        height: 90px;
+        */
+
+        margin-top: -20px;
+        margin-left: 50px;
+
+        /*
+        background-color:darkmagenta;
+        */
+
+        /*FACEBOOK*/
+        background: url(images/socialtry6.png) no-repeat 0 -110px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .space13{
+        /*
+        width: 80px;
+        height: 90px;
+        */
+
+        margin-top: -100px;
+        margin-left: 170px;
+
+        /*
+        background-color:darkred;
+        */
+        /*INSTAGRAM*/
+        background: url(images/socialtry6.png) no-repeat -315px -110px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .space14{
+        width: 320px;
+        height: 30px;
+
+        margin-top: 40px;
+        margin-left: 30px;
+
+        color: black;
+        font-size: 26px;
+    }
+
+    .space15{
+        width: 320px;
+        height: 50px;
+
+        margin-top: 40px;
+        margin-left: 30px;
+
+        color: white;
+        font-size: 22px;
+    }
+
+    .space16{
+        width: 800px;
+        height: 170px;
+
+        margin-top: -130px;
+        margin-left: 0px;
+
+        background-color: lightslategray;
+    }
+
+    
+
+    /**/
+    /**/
+    /**/
+    /**/
+
+}
+
+@media (max-width: 699px){
+
+    /*mobile version/small screen version*/
+
+    html{
+        width: 450px;
+        height: 968px;
+        /*border: 15px solid red;*/
+    }
+
+    details{
+        width: 130px;
+        transition: 2s;
+        background-color: cadetblue;
+
+        font-size: 28px;
+
+    }
+
+    summary{
+        width: 130px;
+        transition: 2s;
+        background-color: darkgoldenrod;
+
+        font-size: 28px;
+
+    }
+
+    
+    .space2{
+        width: 280px;
+        height: 60px;
+
+        font-size: 30px;
+
+    }
+    
+
+    
+    .space3{
+        width: 500px;
+        height: 300px;
+
+        margin-top: 10px;
+        margin-left: 0px;
+
+        /*
+        background-color: blueviolet;
+        */
+
+        background-image: url(images/featuredproject.png); 
+        background-repeat: no-repeat;
+        background-size: 500px;
+    }
+    
+
+    
+    .space4{
+        width: 320px;
+        height: 80px;
+
+        color: black;
+
+        margin-top: 40px;
+        margin-left: 10px;
+
+        font-size: 30px;
+    }
+    
+
+    
+    .space5{
+        width: 5px;
+        height: 5px;
+
+        padding-left: 350px;
+
+        margin-left: 5px;
+        margin-top: -20px;
+
+        border: 1px solid blue;
+        background-color: blue;
+    }
+    
+
+    
+    .space6{
+        width: 320px;
+        height: 30px;
+
+        color: black;
+
+        margin-top: 40px;
+        margin-left: 10px;
+
+        font-size: 28px;
+        font-family: 'Shadows Into Light', cursive;
+    }
+
+
+    
+    .space7{
+        width: 350px;
+        height: 80px;
+
+        color: rgb(149, 20, 20);
+
+        margin-top: 100px;
+        margin-left: 15px;
+
+        font-size: 28px;
+        font-family: 'Pangolin', cursive;
+    }
+    
+
+    
+    .space8{
+        width: 450px;
+        height: 300px;
+
+        margin-top: 170px;
+        margin-left: 10px;
+
+        /*
+        background-color:darkslateblue;
+        */
+        background-image: url(images/featured2.png);
+        background-size: 800px;
+        background-repeat: no-repeat;
+    }
+    
+
+    
+    .space9{
+        width: 450px;
+        height: 300px;
+
+        margin-top: 40px;
+        margin-left: 10px;
+
+        /*
+        background-color:darkkhaki;
+        */
+
+        background-image: url(images/featured3.png);
+        background-size: 800px;
+        background-repeat: no-repeat;
+
+    }
+    
+
+
+    
+    .space10{
+        width: 450px;
+        height: 300px;
+
+        margin-top: 40px;
+        margin-left: 10px;
+
+        /*
+        background-color:darkviolet;
+        */
+
+        background-image: url(images/featured4.png);
+        background-size: 600px;
+        background-repeat: no-repeat;
+    }
+    
+
+
+    
+    .space11{
+        width: 320px;
+        height: 80px;
+
+        margin-top: -100px;
+        margin-left: 40px;
+
+        color: black;
+
+        font-size: 30px;
+    }
+    
+
+    
+    
+    .space12{
+        /*
+        width: 100px;
+        height: 100px;
+        */
+
+        margin-top: -20px;
+        margin-left: 10px;
+
+        /*
+        background-color:darkmagenta;
+        */
+
+        /*FACEBOOK*/
+        background: url(images/socialtry6.png) no-repeat 0 -110px;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .space13{
+        /*
+        width: 100px;
+        height: 100px;
+        */
+
+        margin-top: -100px;
+        margin-left: 150px;
+
+        /*
+        background-color:darkred;
+        */
+        /*INSTAGRAM*/
+        background: url(images/socialtry6.png) no-repeat -315px -110px;
+        width: 100px;
+        height: 100px;
+    }
+    
+
+
+    
+    .space14{
+        width: 320px;
+        height: 30px;
+
+        margin-top: 40px;
+        margin-left: 30px;
+
+        color: black;
+        font-size: 30px;
+    }
+    
+
+    
+    .space15{
+        width: 200px;
+        height: 50px;
+
+        margin-top: 40px;
+        margin-left: 30px;
+
+        color: white;
+        font-size: 26px;
+    }
+    
+
+    
+    .space16{
+        width: 500px;
+        height: 200px;
+
+        margin-top: -130px;
+        margin-left: 0px;
+
+        background-color: lightslategray;
+    }
+    
+
+}
